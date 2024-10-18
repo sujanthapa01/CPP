@@ -20,14 +20,12 @@ int main()
             }
         }
 
-        // Check if no elements were swapped in this pass, then the array is sorted
         if (!swapped)
         {
             break;
         }
     }
 
-    // Print the sorted array
     for (int i = 0; i < size; i++)
     {
         cout << nums[i] << " ";
