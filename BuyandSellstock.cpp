@@ -3,8 +3,8 @@ using namespace std;
 int main()
 {
 
-    // int arr[] = {7, 1, 5, 3, 6, 4};
-    int arr[] = {7,6,4,3,1};
+    int arr[] = {7, 1, 5, 3, 6, 4};
+    // int arr[] = {7,6,4,3,1};
     int size = sizeof(arr) / sizeof(arr[0]);
 
     int best_buy = arr[0];
